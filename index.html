@@ -15,6 +15,38 @@
     --border-color: #e0e0e0;
 }
 
+@font-face {
+    font-family: "Commit Mono";
+    src: url("fonts/CommitMono-400-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    src: url("fonts/CommitMono-400-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    src: url("fonts/CommitMono-700-Regular.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    src: url("fonts/CommitMono-700-Italic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #1a1a1a;
@@ -33,7 +65,7 @@
 }
 
 body {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Commit Mono", ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
     font-size: 14px;
     line-height: 1.4;
     color: var(--text-color);
