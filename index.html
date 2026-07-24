@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="luvtxt">
+    <title>Daniel Yim</title>
+    <style>
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --text-muted: #666;
+    --link-color: #0066cc;
+    --link-hover: #0052a3;
+    --border-color: #e0e0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1a1a1a;
+        --text-color: #e0e0e0;
+        --text-muted: #999;
+        --link-color: #66b3ff;
+        --link-hover: #99ccff;
+        --border-color: #333;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 72ch;
+    padding: 2rem;
+}
+
+header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Intro section */
+.intro {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.intro pre {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    tab-size: 4;
+}
+
+/* Links in intro - same styling as posts */
+.intro a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.intro a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+.intro a.internal-link {
+    color: var(--link-color);
+}
+
+.intro a.external-link {
+    color: var(--link-color);
+}
+
+.intro a.dead-link {
+    color: #cc4444;
+}
+
+.intro a.dead-link:hover {
+    color: #aa2222;
+}
+
+@media (prefers-color-scheme: dark) {
+    .intro a.dead-link {
+        color: #ff6666;
+    }
+    
+    .intro a.dead-link:hover {
+        color: #ff4444;
+    }
+}
+
+main {
+    margin-bottom: 2rem;
+}
+
+/* Header styles for intro */
+.header-1, .header-2, .header-3, .header-4 {
+    font-weight: bold;
+}
+
+/* File tree styles */
+.tree-dir {
+    color: var(--text-muted);
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.tree-file {
+    margin: 0.1rem 0;
+    padding-left: 0;
+}
+
+.tree-file a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.tree-file a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+.file-meta {
+    color: var(--text-muted);
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daniel Yim</h1>
+        </header>
+<div class="intro">
+<pre>I study applied math at Yale.
+
+I've worked on DevX + engineering at <a href="https://www.piplabs.xyz" class="external-link" target="_blank" rel="noopener noreferrer">PIP Labs</a> and lead Yale Blockchain, a crypto-native performance engineering team.
+
+Find me on <a href="https://github.com/parmenides-xyz" class="external-link" target="_blank" rel="noopener noreferrer">GitHub</a> or reach out via <a href="mailto:d.yim@yale.edu" class="external-link">d.yim@yale.edu</a>.
+</pre>
+</div>
+<main class="file-tree">
+<div class="tree-dir">~/books/</div>
+<div class="tree-file">├── ↗ <i>Ἐννεάδες.</i> <span class="file-meta">Plotinus.</span></div>
+<div class="tree-file">├── ↗ <i>Samson Agonistes.</i> <span class="file-meta">John Milton.</span></div>
+<div class="tree-file">├── ↗ <i>Sátántangó.</i> <span class="file-meta">László Krasznahorkai.</span></div>
+<div class="tree-file">├── ↗ <i>rein GOLD. ein bühnenessay.</i> <span class="file-meta">Elfriede Jelinek.</span></div>
+<div class="tree-file">└── ↗ <i>Solenoid.</i> <span class="file-meta">Mircea Cărtărescu.</span></div>
+
+        </main>
+    </div>
+</body>
+</html>
